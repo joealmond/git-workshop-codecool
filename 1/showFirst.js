@@ -4,6 +4,8 @@ const getBeers = require('../data')
 
 function getFirstBeer() {
     // TODO: return the first beer object (use `getBeers` for the solution)
+    return getBeers()[0];
+    
 }
 
 if (getFirstBeer()?.name === "Rivet red") {
